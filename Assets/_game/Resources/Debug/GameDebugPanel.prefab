@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4473389616400472763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6876293666644669176}
+  - component: {fileID: 4679618486281682911}
+  m_Layer: 0
+  m_Name: GameDebugPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6876293666644669176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473389616400472763}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4679618486281682911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473389616400472763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2217a591a74314a8aa9673edbbd6a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameDebugPanel
+  _toggleKey: 96
+  _level1Scene: Level1
+  _level2Scene: Level2
+  _homeScene: HomeScreen
+  _coopNecPrefab: {fileID: 2349204002147550335, guid: b8949c6089c85894a8cdde1318e94ef5, type: 3}
+  _coopMgPrefab: {fileID: 2349204002147550335, guid: f388ad6fd5e4ffd499358b1825eaf930, type: 3}
+  _pvpNecPrefab: {fileID: 2349204002147550335, guid: ec46d92013f7b014e9cbcf206798db99, type: 3}
+  _pvpMgPrefab: {fileID: 2349204002147550335, guid: 34d1ceb498d66eb48b069277ed3135ad, type: 3}
+  _coopNecAllyPrefab: {fileID: 48132213009703703, guid: 35bee07f0894e0b4a812ab29250a5e0d, type: 3}
+  _coopMgAllyPrefab: {fileID: 48132213009703703, guid: 58d05cbdc0107e14bb0e4870d19fef8b, type: 3}
+  _pvpNecAllyPrefab: {fileID: 48132213009703703, guid: ede32d292c13cb34181e4693ec7a1a07, type: 3}
+  _pvpMgAllyPrefab: {fileID: 48132213009703703, guid: e3ddfd9cfec0a1f4cb5d60e5e59f0797, type: 3}

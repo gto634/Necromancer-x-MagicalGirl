@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e8c37405fa4e2e8448a670e92ef87e85
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390618
+  packageName: Easy Node Dialogue System - RPGs & Visual Novels
+  packageVersion: 1.0.0
+  assetPath: Assets/ALTUSHKA/Easy Node Dialog System/Core/Scripts/SO/DialogDatabase.cs
+  uploadId: 980532

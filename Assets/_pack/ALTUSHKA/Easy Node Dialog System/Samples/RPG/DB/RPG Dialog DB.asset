@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c37405fa4e2e8448a670e92ef87e85, type: 3}
+  m_Name: RPG Dialog DB
+  m_EditorClassIdentifier: 
+  _currentLanguage: en
+  _categories:
+  - npc_chef
+  - npc_guard
+  _dialogs:
+  - dialogName: Chef Greeting
+    initiator: npc_chef
+    conditions: []
+    isAndLogic: 1
+    isLocked: 0
+    nodes:
+    - NodeType: 0
+      nodeId: 0558dc10-a045-4019-8e16-d56af44e9958
+      Position: {x: 80.00004, y: 120.00004}
+      StartData:
+        NextNodeId: d4d78f47-5405-4943-9dc6-d8d4d3536b95
+      LineData:
+        CharacterName: 
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText: []
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: d4d78f47-5405-4943-9dc6-d8d4d3536b95
+      Position: {x: 161.00009, y: 237}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: Chef
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: en
+          SayerName: Chef
+          Text: Hey there! Pip the cook. Got a spare pair of paws? The soup's bullyin'
+            me today.
+          VoiceClip: {fileID: 0}
+        - LanguageCode: es
+          SayerName: Chef
+          Text: '[ES stub] Pip needs help.'
+          VoiceClip: {fileID: 0}
+        NextNodeId: d086b877-b002-4145-b6d0-860baedb1b54
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 2
+      nodeId: d086b877-b002-4145-b6d0-860baedb1b54
+      Position: {x: 708.8572, y: 270.85712}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: 
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText: []
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData:
+      - NextNodeId: a318b182-d659-4b07-b748-8d734fe93b9a
+        ChoiceCondition: []
+        IsAndLogic: 1
+        ChoiceConsequence:
+        - ReferenceState: 0
+          MissingReferenceLabel: 
+          VariableType: 0
+          VariableName: helped_chef
+          BoolValue: 1
+          IntValue: 0
+          FloatValue: 0
+          StringValue: 
+        Translations:
+        - LanguageCode: en
+          SayerName: 
+          Text: Sure, I'll help
+          VoiceClip: {fileID: 0}
+        - LanguageCode: es
+          SayerName: 
+          Text: '[ES stub] Help'
+          VoiceClip: {fileID: 0}
+      - NextNodeId: 4c2272cd-a383-410b-8647-783322a8b24a
+        ChoiceCondition: []
+        IsAndLogic: 1
+        ChoiceConsequence: []
+        Translations:
+        - LanguageCode: en
+          SayerName: 
+          Text: Maybe later
+          VoiceClip: {fileID: 0}
+        - LanguageCode: es
+          SayerName: 
+          Text: '[ES stub] Later'
+          VoiceClip: {fileID: 0}
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: a318b182-d659-4b07-b748-8d734fe93b9a
+      Position: {x: 1310, y: 942.8572}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: Chef
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: en
+          SayerName: Chef
+          Text: Bless your whiskers! Tell the gate guard you helped - he owes me
+            a favor... or a spoon.
+          VoiceClip: {fileID: 0}
+        - LanguageCode: es
+          SayerName: Chef
+          Text: '[ES stub] Tell the guard.'
+          VoiceClip: {fileID: 0}
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: 4c2272cd-a383-410b-8647-783322a8b24a
+      Position: {x: 1070.0001, y: 1457.4998}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: Chef
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: en
+          SayerName: Chef
+          Text: No rush. Ambition burns slow... like my onions.
+          VoiceClip: {fileID: 0}
+        - LanguageCode: es
+          SayerName: Chef
+          Text: '[ES stub] No rush.'
+          VoiceClip: {fileID: 0}
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+  - dialogName: Guard Greeting
+    initiator: npc_guard
+    conditions: []
+    isAndLogic: 1
+    isLocked: 0
+    nodes:
+    - NodeType: 0
+      nodeId: 5169c9c3-104a-46ee-83eb-1d1750a8f8a9
+      Position: {x: 80, y: 120}
+      StartData:
+        NextNodeId: 3f849d04-9754-45fd-b7c6-ea50a0daf2bd
+      LineData:
+        CharacterName: 
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText: []
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: 3f849d04-9754-45fd-b7c6-ea50a0daf2bd
+      Position: {x: 61, y: 229}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: Guard
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: en
+          SayerName: Guard
+          Text: Halt. Gate's open, but my eyes aren't. State your business... or
+            bring snacks.
+          VoiceClip: {fileID: 0}
+        - LanguageCode: es
+          SayerName: Guard
+          Text: '[ES stub] Halt / snacks.'
+          VoiceClip: {fileID: 0}
+        NextNodeId: 270202a9-bf0b-434a-bdfe-9ee6c56b6a86
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: 270202a9-bf0b-434a-bdfe-9ee6c56b6a86
+      Position: {x: 531, y: 634}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: Guard
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: en
+          SayerName: Guard
+          Text: If you've got time, the cook's making a racket. Don't tell him I
+            said that.
+          VoiceClip: {fileID: 0}
+        - LanguageCode: es
+          SayerName: Guard
+          Text: '[ES stub] Check the cook.'
+          VoiceClip: {fileID: 0}
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+  - dialogName: Guard After Help
+    initiator: npc_guard
+    conditions:
+    - ReferenceState: 0
+      MissingReferenceLabel: 
+      VariableName: helped_chef
+      VariableType: 0
+      ConditionOperator: 0
+      BoolValue: 1
+      IntValue: 0
+      FloatValue: 0
+      StringValue: 
+    isAndLogic: 1
+    isLocked: 0
+    nodes:
+    - NodeType: 0
+      nodeId: feb1dc02-2455-4643-9b6a-92cad8c7e6f3
+      Position: {x: 80, y: 320}
+      StartData:
+        NextNodeId: eb87486f-e31d-4cea-853c-cb9861f6ee47
+      LineData:
+        CharacterName: 
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText: []
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: eb87486f-e31d-4cea-853c-cb9861f6ee47
+      Position: {x: 242, y: 575}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: Guard
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: en
+          SayerName: Guard
+          Text: 'You helped Pip? ...Fine. Pass. And take this advice: never trust
+            a smiling cheese.'
+          VoiceClip: {fileID: 0}
+        - LanguageCode: es
+          SayerName: Guard
+          Text: '[ES stub] You helped Pip.'
+          VoiceClip: {fileID: 0}
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+  _availableLanguages:
+  - en
+  - es
+  _characterNameColors:
+  - Name: Chef
+    ColorHex: '#E8B86D'
+    Translations:
+    - languageCode: en
+      displayName: Chef
+    - languageCode: es
+      displayName: '[ES] Chef'
+  - Name: Guard
+    ColorHex: '#9AA8B8'
+    Translations:
+    - languageCode: en
+      displayName: Guard
+    - languageCode: es
+      displayName: '[ES] Guard'
+  _variables:
+  - variableName: helped_chef
+    variableType: 0
+    boolDefault: 0
+    intDefault: 0
+    floatDefault: 0
+    stringDefault: 
+  _characterGroups: []
+  _voiceClipsEnabled: 1

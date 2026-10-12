@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c37405fa4e2e8448a670e92ef87e85, type: 3}
+  m_Name: DialogDatabase
+  m_EditorClassIdentifier: ALTUSHKA.EasyNodeDialogSystem.Data::ALTUSHKA.EasyNodeDialogSystem.DialogDatabase
+  _currentLanguage: en
+  _categories:
+  - Unnamed
+  - Main Story
+  - Side Quests
+  - NPC
+  - Tutorial
+  - L1_Debut
+  - L1_Fin
+  _dialogs:
+  - dialogName: L1_Intro
+    initiator: L1_Debut
+    conditions: []
+    isAndLogic: 1
+    isLocked: 0
+    nodes:
+    - NodeType: 0
+      nodeId: 31a4b899-929d-4d08-81b6-2280f3cf4f88
+      Position: {x: 86, y: 63}
+      StartData:
+        NextNodeId: 72b17aac-41a3-49a1-b2c5-c80746f24605
+      LineData:
+        CharacterName: 
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText: []
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: 72b17aac-41a3-49a1-b2c5-c80746f24605
+      Position: {x: 412, y: 3}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: MagicalGirl
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: fr
+          SayerName: MagicalGirl
+          Text: "oh tien c'est bizarre j'ai retrouv\xE9 mon pouvoir , le roi d\xE9mon
+            serait il mort ?"
+          VoiceClip: {fileID: 0}
+        - LanguageCode: en
+          SayerName: MagicalGirl
+          Text: 
+          VoiceClip: {fileID: 0}
+        NextNodeId: 687961a0-0300-4fc8-b42f-477927eacab2
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: 687961a0-0300-4fc8-b42f-477927eacab2
+      Position: {x: 944.73914, y: -26.043488}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: Necromancian
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: fr
+          SayerName: Necromancien
+          Text: "Comment est ce possible ,il \xE9tait cens\xE9 \xEAtre immortel ,
+            c'est le moment pour moi de partir prendre son tr\xF4ne et de ralier
+            tout ces sujets \xE0 ma cause!!"
+          VoiceClip: {fileID: 0}
+        - LanguageCode: en
+          SayerName: Necromancian
+          Text: 
+          VoiceClip: {fileID: 0}
+        NextNodeId: 2c8f832c-7ad7-4f88-b17b-d89710b77cbd
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: 2c8f832c-7ad7-4f88-b17b-d89710b77cbd
+      Position: {x: 1477.1593, y: -34.556084}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: MagicalGirl
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: fr
+          SayerName: MagicalGirl
+          Text: "Et le n\xE9cromancien , il va falloir s'allier pour sortir d'ici
+            tu n'y arriveras jamais tout seul!!"
+          VoiceClip: {fileID: 0}
+        - LanguageCode: en
+          SayerName: MagicalGirl
+          Text: 
+          VoiceClip: {fileID: 0}
+        NextNodeId: 01801901-7383-4555-802b-60d31815e11d
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: 01801901-7383-4555-802b-60d31815e11d
+      Position: {x: 2022.8065, y: -17.530937}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: Necromancian
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: fr
+          SayerName: Necromancien
+          Text: Tu as raison allions nous!!
+          VoiceClip: {fileID: 0}
+        - LanguageCode: en
+          SayerName: Necromancian
+          Text: 
+          VoiceClip: {fileID: 0}
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+  - dialogName: L1_Fin
+    initiator: L1_Fin
+    conditions: []
+    isAndLogic: 1
+    isLocked: 0
+    nodes:
+    - NodeType: 0
+      nodeId: f4e49541-f384-47a7-a092-247e2843034f
+      Position: {x: 100, y: 100}
+      StartData:
+        NextNodeId: bb8f4c14-2d41-425a-a0ea-2e8dc3a1931d
+      LineData:
+        CharacterName: 
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText: []
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: bb8f4c14-2d41-425a-a0ea-2e8dc3a1931d
+      Position: {x: 291, y: 180}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: Necromancian
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: fr
+          SayerName: Necromancien
+          Text: "Maintenant qu'on s'en est sortie je vais pouvoir m'empar\xE9 du
+            tr\xF4ne , d\xE9sol\xE9 pour toi magical girl mais tu ne m'est plus d'aucune
+            utilit\xE9!!!! hahahaha"
+          VoiceClip: {fileID: 0}
+        - LanguageCode: en
+          SayerName: Necromancian
+          Text: 
+          VoiceClip: {fileID: 0}
+        NextNodeId: 75fb8785-6978-42af-840d-79851a1b8c13
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+    - NodeType: 1
+      nodeId: 75fb8785-6978-42af-840d-79851a1b8c13
+      Position: {x: 906, y: 170}
+      StartData:
+        NextNodeId: 
+      LineData:
+        CharacterName: MagicalGirl
+        CharacterReferenceState: 0
+        MissingCharacterReferenceLabel: 
+        CharacterActions: []
+        DialogsText:
+        - LanguageCode: fr
+          SayerName: MagicalGirl
+          Text: "c'est ce qu'on va voir jamais je ne te laisserais devenir roi d\xE9mon
+            !!!"
+          VoiceClip: {fileID: 0}
+        - LanguageCode: en
+          SayerName: MagicalGirl
+          Text: 
+          VoiceClip: {fileID: 0}
+        NextNodeId: 
+        isInstant: 0
+      ChoiceData: []
+      ConditionData:
+        DialogConditions: []
+        IsAndLogic: 1
+        TrueNodeId: 
+        FalseNodeId: 
+      RedirectData:
+        TargetCategory: 
+        TargetDialogName: 
+        DialogReferenceState: 0
+        MissingDialogReferenceLabel: 
+  _availableLanguages:
+  - fr
+  - en
+  _characterNameColors:
+  - Name: MagicalGirl
+    ColorHex: '#E100F8'
+    Translations:
+    - languageCode: fr
+      displayName: MagicalGirl
+    - languageCode: en
+      displayName: MagicalGirl
+  - Name: Necromancian
+    ColorHex: '#2ED900'
+    Translations:
+    - languageCode: fr
+      displayName: Necromancien
+    - languageCode: en
+      displayName: Necromancian
+  _variables: []
+  _characterGroups: []
+  _voiceClipsEnabled: 1

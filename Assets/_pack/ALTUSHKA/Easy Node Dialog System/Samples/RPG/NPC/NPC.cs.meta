@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8270ff5b028149f41824d0a618617d06
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390618
+  packageName: Easy Node Dialogue System - RPGs & Visual Novels
+  packageVersion: 1.0.0
+  assetPath: Assets/ALTUSHKA/Easy Node Dialog System/Samples/RPG/NPC/NPC.cs
+  uploadId: 980532

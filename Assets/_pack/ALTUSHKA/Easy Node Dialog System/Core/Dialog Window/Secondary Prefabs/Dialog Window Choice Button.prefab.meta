@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 68a47c40516a8374494bef950c3374bd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390618
+  packageName: Easy Node Dialogue System - RPGs & Visual Novels
+  packageVersion: 1.0.0
+  assetPath: Assets/ALTUSHKA/Easy Node Dialog System/Core/Dialog Window/Secondary
+    Prefabs/Dialog Window Choice Button.prefab
+  uploadId: 980532

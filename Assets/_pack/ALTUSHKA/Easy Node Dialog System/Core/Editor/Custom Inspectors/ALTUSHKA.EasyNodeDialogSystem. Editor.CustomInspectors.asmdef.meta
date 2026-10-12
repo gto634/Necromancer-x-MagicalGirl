@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5710dabc503184a4b8a638924ecbc064
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390618
+  packageName: Easy Node Dialogue System - RPGs & Visual Novels
+  packageVersion: 1.0.0
+  assetPath: Assets/ALTUSHKA/Easy Node Dialog System/Core/Editor/Custom Inspectors/ALTUSHKA.EasyNodeDialogSystem.
+    Editor.CustomInspectors.asmdef
+  uploadId: 980532

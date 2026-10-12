@@ -107,3 +107,11 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Local Blender backups and regenerable Visual Scripting data
+*.blend[0-9]*
+/Assets/Unity.VisualScripting.Generated/
+/Assets/Unity.VisualScripting.Generated.meta
+
+# Local assistant/editor snapshots and scratch files
+/Temp.txt

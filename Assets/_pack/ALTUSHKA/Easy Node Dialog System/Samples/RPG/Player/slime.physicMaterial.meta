@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c813181f7452ea4dbaa1c19d280345e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 13400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390618
+  packageName: Easy Node Dialogue System - RPGs & Visual Novels
+  packageVersion: 1.0.0
+  assetPath: Assets/ALTUSHKA/Easy Node Dialog System/Samples/RPG/Player/slime.physicMaterial
+  uploadId: 980532

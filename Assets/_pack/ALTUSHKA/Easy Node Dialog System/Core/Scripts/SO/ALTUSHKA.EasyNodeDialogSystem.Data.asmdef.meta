@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 48caba6d20ee9b048b64f2031e5f35d8
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390618
+  packageName: Easy Node Dialogue System - RPGs & Visual Novels
+  packageVersion: 1.0.0
+  assetPath: Assets/ALTUSHKA/Easy Node Dialog System/Core/Scripts/SO/ALTUSHKA.EasyNodeDialogSystem.Data.asmdef
+  uploadId: 980532

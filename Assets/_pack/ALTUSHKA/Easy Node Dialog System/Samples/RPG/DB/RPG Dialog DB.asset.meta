@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cc8a0bbac16a86341a37621729f88ae1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390618
+  packageName: Easy Node Dialogue System - RPGs & Visual Novels
+  packageVersion: 1.0.0
+  assetPath: Assets/ALTUSHKA/Easy Node Dialog System/Samples/RPG/DB/RPG Dialog DB.asset
+  uploadId: 980532

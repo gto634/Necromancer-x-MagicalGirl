@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5426769934237184685
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3718837304969856901, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718837304969856901, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: ShapeModule.randomDirectionAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.76538306
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.56937194
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.29384404
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0014631078
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -11.595
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558324038468186125, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9093874921687717909, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      propertyPath: m_Name
+      value: CFXR2 Poison Cloud 1 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9093874921687717909, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6506382401257685835}
+    - targetCorrespondingSourceObject: {fileID: 9093874921687717909, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2329298959588298942}
+  m_SourcePrefab: {fileID: 100100000, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+--- !u!1 &3854005477301922488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9093874921687717909, guid: 59b78330b4009e94b9ad8585eaa40abd, type: 3}
+  m_PrefabInstance: {fileID: 5426769934237184685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6506382401257685835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3854005477301922488}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.26858, y: 10.541737, z: 31.383406}
+  m_Center: {x: 0.48381788, y: 0.0009932503, z: -0.38874742}
+--- !u!114 &2329298959588298942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3854005477301922488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c1784ffba829644cbb87eed1ed1accc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageZone
+  _damagePerTick: 50
+  _tickInterval: 0.2
+  _damageableTags:
+  - NEC
+  - MG
